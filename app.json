@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "smargamesM",
+    "permissions": ["ACCESS_NETWORK_STATE", "INTERNET"],
     "slug": "smargamesM",
     "version": "1.0.0",
     "orientation": "portrait",
