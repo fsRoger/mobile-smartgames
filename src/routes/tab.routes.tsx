@@ -20,8 +20,9 @@ export default function TabRoutes() {
         }} />
 
       <Tab.Screen
-        name="New"
+        name="new"
         component={New}
+        initialParams={{ id: '' }}
         options={{
           tabBarIcon: ({ color, size }) => <Feather name="plus" color={color} size={size} />,
           tabBarLabel: 'Novo'

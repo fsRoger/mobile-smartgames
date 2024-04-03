@@ -8,9 +8,9 @@ export function getAllGames() {
   return response;
 }
 
-//export async function getProductById(id) {
-//  const response = await axios.get(`${baseURL}/product/${id}`);
-// return response;
+export async function getProductById(id) {
+  const response = await axios.get(`${baseURL}/product/${id}`);
+  return response;
 
-//}
+}
 
